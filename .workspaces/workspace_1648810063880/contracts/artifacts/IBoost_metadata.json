@@ -1,0 +1,121 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_gauge",
+						"type": "address"
+					}
+				],
+				"name": "distribute",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_tokeId",
+						"type": "uint256"
+					}
+				],
+				"name": "usedWeights",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_tokeId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_pool",
+						"type": "address"
+					}
+				],
+				"name": "votes",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_pool",
+						"type": "address"
+					}
+				],
+				"name": "weights",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Gauge.sol": "IBoost"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Gauge.sol": {
+			"keccak256": "0xb425a718bd47c1a7110638e2ea2ba5178c0de85b43a11ec99790f94fd4295f10",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://797b9be765251d17dca342fdfbe95ed326ba2c71fcb2ea44d74dcbf5d7f2efdb",
+				"dweb:/ipfs/QmUTBAaDtPc2RcXr2pxkvNuX2HDG789cgs8ipZWAahCknq"
+			]
+		}
+	},
+	"version": 1
+}

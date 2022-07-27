@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.5.16+commit.9c3226ce"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount0",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "uniswapV2Call",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/uniswap_v2/facotry.sol": "IUniswapV2Callee"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/uniswap_v2/facotry.sol": {
+			"keccak256": "0x6f52717f13916c2b298cb09d2a07f7395123959ea7a5cd8d8b79402a704014b3",
+			"urls": [
+				"bzz-raw://2e5c7bfa3290d0d5d94aa139d97cdee2ca8d0a59ea373b4cedfc2409a809a79b",
+				"dweb:/ipfs/QmeWfe6GQQWfTLrDd8qNRmneXQLQYbXwUEfBiTHcwg7at2"
+			]
+		}
+	},
+	"version": 1
+}
